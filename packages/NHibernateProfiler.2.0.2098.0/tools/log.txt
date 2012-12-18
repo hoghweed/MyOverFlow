@@ -1,0 +1,12 @@
+2012-12-18 12:32:05,171 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2098
+2012-12-18 12:32:06,355 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2012-12-18 12:32:06,362 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2012-12-18 12:32:11,347 [8] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 12/31/9999 23:59:59
+2012-12-18 12:32:11,564 [8] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2012-12-18 12:32:11,578 [5] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2012-12-18 12:32:11,654 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.Net.WebException: The remote name could not be resolved: 'hibernatingrhinos.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at NAppUpdate.Framework.Sources.SimpleWebSource.GetUpdatesFeed() in z:\Projects\NAppUpdate\src\NAppUpdate.Framework\Sources\SimpleWebSource.cs:line 36
+   at NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) in z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:line 133
+   at NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() in z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:line 175
+2012-12-18 12:32:11,679 [8] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler

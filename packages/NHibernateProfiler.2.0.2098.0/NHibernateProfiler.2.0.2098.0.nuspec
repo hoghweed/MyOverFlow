@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NHibernateProfiler</id>
+    <version>2.0.2098.0</version>
+    <title>NHibernate Profiler</title>
+    <authors>Hibernating Rhinos LTD</authors>
+    <owners>Hibernating Rhinos LTD</owners>
+    <licenseUrl>http://nhprof.com/license</licenseUrl>
+    <projectUrl>http://nhprof.com/</projectUrl>
+    <iconUrl>http://nhprof.com/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>NHibernate Profiler is a real-time visual debugger allowing a development team to gain valuable insight and perspective into their usage of NHibernate. The product is architected with input coming from many top industry leaders within the NHibernate community. Alerts are presented in a concise code-review manner indicating patterns of misuse by your application. To streamline your efforts to correct the misuse, we provide links to the problematic code section that triggered the alert.
+
+We provide a 30 day trial to download and see for yourself, the value you will receive with your purchase of NHibernate Profiler.</description>
+    <summary>This package let you profile your NHibernate application easily!</summary>
+    <language>en-US</language>
+    <tags>NHibernate Profiler Prof NHProf</tags>
+    <dependencies>
+      <dependency id="WebActivator" version="1.4" />
+    </dependencies>
+    <references>
+      <reference file="HibernatingRhinos.Profiler.Appender.dll" />
+    </references>
+  </metadata>
+</package>

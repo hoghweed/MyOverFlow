@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MyOverFlow.Tests" namespace="MyOverFlow.Tests.NHibernate.Domain">
+  <class name="DepartmentEntity" table="DepartmentInfo" lazy="true">
+    <id name="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Name" not-null="true" />
+    <many-to-one name="Parent" column="ParentID" class="DepartmentEntity" cascade="none" unique="true" not-found="ignore" lazy="no-proxy" />
+    <many-to-one name="Company" column="CompanyID" class="CompanyEntity" cascade="none" unique="true" not-found="ignore" lazy="no-proxy" />
+  </class>
+</hibernate-mapping>
